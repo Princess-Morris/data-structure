@@ -12,10 +12,8 @@
 // }
 
 const countOccurrences = (str, char) => {
-//    const chars = str.split("")
-//    if(ch )
 
-    console.log(str.split(char).length - 1) 
+    console.log(str.split(char)) 
     return str.split(char).length - 1
 }   
 
