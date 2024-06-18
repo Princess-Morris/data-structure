@@ -17,7 +17,7 @@ function isPalindrome(str) {
 function removeNonAlphaNumeric(str) {
   let formattedStr = "";
   for (let i = 0; i < str.length; i++) {
-    const char = str[i];
+    const char = str[i]; 
     if (isAlphaNumeric(char)) {
       formattedStr = formattedStr + char;
     }
@@ -37,7 +37,7 @@ function isAlphaNumeric(char) {
 function reverseString(str) {
     let reversed = ''
 
-    for (let i = str.length-1; i >= 0; i--){
+    for (let i = str.length - 1; i >= 0; i--){
         reversed = reversed + str[i]
     }
 

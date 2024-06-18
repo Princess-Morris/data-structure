@@ -9,7 +9,7 @@ function findMissingNumber(arr) {
 //     actualSum = actualSum + arr[i];
 //   }
 
-const actualSum = arr.reduce(((sum, num) => sum + num, 0))
+const actualSum = arr.reduce((sum, num) => sum + num, 0)
 
   return expectedSum - actualSum
    }

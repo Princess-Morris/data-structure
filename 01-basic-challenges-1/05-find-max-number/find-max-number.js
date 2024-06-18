@@ -1,15 +1,4 @@
 // function findMaxNumber(arr){
-//   for(let i = 0; i < arr.length; i++){
-//     if(arr[i] > i++){
-//         return arr[i]
-//     } else if(arr[i] < i++){
-//         return i++
-//     }
-//   }
-//   i++
-// }
-
-// function findMaxNumber(arr){
 //     return Math.max(...arr)
 // }
 
@@ -25,4 +14,4 @@ function findMaxNumber(arr){
   return max
 }
 
-module.exports = findMaxNumber;
+module.exports = findMaxNumber; 
