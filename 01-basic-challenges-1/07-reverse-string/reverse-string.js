@@ -1,4 +1,5 @@
 // const reverseString =(str) => str.split('').reverse().join('')
+
 function reverseString(str) {
   let reversed = "";
 
