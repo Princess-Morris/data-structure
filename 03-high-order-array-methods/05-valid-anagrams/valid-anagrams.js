@@ -13,3 +13,5 @@ return Object.keys(freqCount1).every((char) => freqCount1[char] === freqCount2[c
 }
 
 module.exports = validAnagrams
+
+
