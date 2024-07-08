@@ -13,7 +13,6 @@ function sumArray(arr){
 }
 
 const arr1 = [1, 2, 3, 4, 5]
-
 console.time('Sum Array 1')
 console.log(sumArray(arr1))
 console.timeEnd('Sum Array 1')
